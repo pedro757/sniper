@@ -1,0 +1,42 @@
+[selene]
+base = "lua51"
+name = "vim"
+
+[vim]
+any = true
+
+[[i.args]]
+type = "number"
+required = true
+
+[[i.args]]
+type = "string"
+required = false
+
+[[c.args]]
+type = "number"
+required = true
+
+[[c.args]]
+type = "table"
+required = true
+
+[[s.args]]
+type = "any"
+required = true
+
+[[s.args]]
+type = "table"
+required = true
+
+[[t.args]]
+type = "any"
+required = true
+
+[[fmt.args]]
+type = "string"
+required = true
+
+[[fmt.args]]
+type = "table"
+required = true
