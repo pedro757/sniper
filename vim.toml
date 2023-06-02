@@ -10,7 +10,7 @@ type = "number"
 required = true
 
 [[i.args]]
-type = "string"
+type = "any"
 required = false
 
 [[c.args]]
@@ -38,5 +38,13 @@ type = "string"
 required = true
 
 [[fmt.args]]
+type = "table"
+required = true
+
+[[f.args]]
+type = "function"
+required = true
+
+[[f.args]]
 type = "table"
 required = true
